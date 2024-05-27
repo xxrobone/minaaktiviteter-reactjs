@@ -1,0 +1,65 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* To style the tables from MinaAktiviteter, Copy this css and you can add to it ass well  */
+
+.headerRow .title span {
+  font-family: monospace;
+  font-size: clamp(1.5rem, 0.75rem + 4vw, 3rem);
+}
+
+td {
+  padding: 0 0.25rem;
+}
+
+td.title {
+  float: left;
+  font-family: monospace;
+  font-size: clamp(1.5rem, 0.75rem + 2vw, 2rem);
+}
+
+.cwEvents {
+  position: relative;
+  height: fit-content;
+}
+
+.cwEvents tbody {
+  width: 100%;
+}
+
+.cwEvents tbody tr {
+  padding: 0.5rem 0;
+  max-width: 100%;
+}
+
+.dataRow th {
+  padding: 0 0.2rem;
+}
